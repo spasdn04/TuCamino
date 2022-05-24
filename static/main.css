@@ -183,7 +183,7 @@ button {
     position: absolute;
     left: 0;
     width: 100%;
-    height: calc(60% + 35px);
+    height: calc(65% + 50px);
     background-color: aqua;
     transition: transform .5s .25s ease-in;
     z-index: -1;
