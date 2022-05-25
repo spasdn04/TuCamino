@@ -146,7 +146,7 @@ button {
 }
 
 .front_home {
-    background-color: red;
+    background-color: darkred;
     text-align: center;
 }
 
@@ -206,6 +206,13 @@ button {
     text-align: center;
     transition: opacity .25s;
 }
+.card_title {
+    margin-top: -10%;
+}
+
+.card_description {
+    margin:0 0 0 0;
+}
 
 .card:hover::before,
 .card:hover::after {
@@ -215,4 +222,22 @@ button {
 .card:hover .card_content {
     opacity: 1;
     transition-delay: .75s;
+}
+
+#gustos {
+    position: relative;
+    margin: 0% 3%;
+}
+
+#contacto {
+    position: absolute;
+    margin: -250px 44%;
+}
+
+#datos {
+    position: absolute;
+    margin: -250px 83%;
+}
+#title_datos {
+    margin-top: -10%;
 }
